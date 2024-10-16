@@ -1,0 +1,45 @@
+AAPL,Apple Inc.,Technology,2.5T,145.32,25.38
+MSFT,Microsoft Corporation,Technology,2.2T,280.74,31.15
+AMZN,Amazon.com Inc.,Consumer Discretionary,1.7T,3502.36,60.23
+GOOGL,Alphabet Inc.,Communication Services,1.6T,2731.45,27.84
+FB,Meta Platforms Inc.,Communication Services,968B,342.94,24.65
+TSLA,Tesla Inc.,Consumer Discretionary,795B,785.45,145.30
+BRK.B,Berkshire Hathaway Inc.,Financials,690B,284.71,19.11
+JPM,JPMorgan Chase & Co.,Financials,463B,154.78,12.58
+JNJ,Johnson & Johnson,Healthcare,430B,169.55,17.23
+V,Visa Inc.,Technology,450B,220.64,39.58
+WMT,Walmart Inc.,Consumer Staples,387B,139.36,21.73
+PG,Procter & Gamble Co.,Consumer Staples,345B,141.45,25.93
+NVDA,NVIDIA Corporation,Technology,665B,220.77,60.92
+DIS,The Walt Disney Company,Communication Services,317B,181.17,42.58
+HD,The Home Depot Inc.,Consumer Discretionary,330B,299.54,24.73
+PYPL,PayPal Holdings Inc.,Technology,270B,235.66,53.20
+MA,Mastercard Incorporated,Technology,340B,336.48,57.63
+ADBE,Adobe Inc.,Technology,277B,589.22,55.78
+NFLX,Netflix Inc.,Communication Services,247B,553.67,48.19
+PFE,Pfizer Inc.,Healthcare,252B,55.62,12.65
+INTC,Intel Corporation,Technology,220B,53.64,13.42
+CMCSA,Comcast Corporation,Communication Services,243B,53.72,22.14
+KO,The Coca-Cola Company,Consumer Staples,242B,56.31,28.16
+CSCO,Cisco Systems Inc.,Technology,234B,54.17,17.64
+PEP,PepsiCo Inc.,Consumer Staples,229B,165.44,27.38
+NKE,Nike Inc.,Consumer Discretionary,226B,150.34,41.62
+MRK,Merck & Co.,Healthcare,102B,77.98,13.28
+XOM,Exxon Mobil Corporation,Energy,248B,57.32,30.11
+ABT,Abbott Laboratories,Healthcare,215B,120.41,35.18
+AVGO,Broadcom Inc.,Technology,198B,464.62,36.98
+ORCL,Oracle Corporation,Technology,202B,71.92,20.30
+CVX,Chevron Corporation,Energy,207B,106.34,36.72
+LLY,Eli Lilly and Co.,Healthcare,191B,198.34,36.11
+ACN,Accenture plc,Technology,101B,292.53,33.24
+QCOM,Qualcomm Incorporated,Technology,185B,163.74,23.62
+MCD,McDonald's Corporation,Consumer Discretionary,172B,226.61,35.82
+MDT,Medtronic plc,Healthcare,163B,121.34,22.94
+BA,The Boeing Company,Industrials,136B,229.71,23.87
+UNH,UnitedHealth Group Inc.,Healthcare,378B,398.88,22.15
+PM,Philip Morris International Inc.,Consumer Staples,152B,98.22,17.14
+IBM,International Business Machines Corporation,Technology,122B,134.56,15.07
+NEE,NextEra Energy Inc.,Utilities,159B,82.64,34.68
+HON,Honeywell International Inc.,Industrials,156B,225.78,29.94
+SBUX,Starbucks Corporation,Consumer Discretionary,135B,115.12,40.77
+RTX,Raytheon Technologies Corporation,Industrials,127B,84.32,25.44
