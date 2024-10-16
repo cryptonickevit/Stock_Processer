@@ -1,4 +1,8 @@
+import java.io.*;
+import java.nio.channels.ScatteringByteChannel;
 import java.util.Scanner;
+import java.io.FileReader;
+import java.io.File;
 
 public class Stocks {
 
@@ -11,10 +15,50 @@ public class Stocks {
     private static final String INVALID_PRICE_TO_EARNINGS = "Price To Earnings must be between 1 and 100 inclusive";
 
     public void makeSectorFile(String sector) {
+        File f = new File("sector.txt");
+
+        if (!f.exists()) { // checks to see if sector.txt doesn't exist
+            try {
+                f.createNewFile(); // creates the file if it doesn't
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } // end of if statement
+        else { // if sector.txt does exist
+            try (PrintWriter pw = new PrintWriter(new FileOutputStream(f, true));
+                 BufferedReader br = new BufferedReader(new FileReader(f))
+            ) { // using try-with-resources to close after use
+                String line = br.readLine(); // reads the line and then pointer moves to the next line
+                while (line != null && line.contains(sector)) {
+                    String [] fields = line.split("w,"); // creates an array that divides different parts of the stock
+                    String ticker = fields[0];
+                    String currentPrice = fields[4];
+                    pw.println(ticker + " " + currentPrice);
+                    line = br.readLine(); // reads the line and then pointer moves to the next line
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            } // end of else statement
+
+        }
     }
 
     public void makePriceToEarningsFile(double priceToEarnings, boolean greaterThan) {
+        File f = new File("priceToEarnings.txt");
+        if (!f.exists()) {
+            try{
+                if (greaterThan){
+                    try (PrintWriter pw = new PrintWriter(new FileOutputStream(f, true));
+                    BufferedReader br = new BufferedReader(new FileReader(f))) {
+
+                    } catch (IOException e){
+                        e.printStackTrace(); 
+            }
+        }
     }
+        }
+    }
+
 
     public void makeSortedMarketCapFile() {
     }
