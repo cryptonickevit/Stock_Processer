@@ -4,8 +4,6 @@
 
 Welcome to the **Stocks Processing Application**! This Java-based application processes stock market data based on various criteria such as **sectors**, **market capitalization**, and **price-to-earnings ratios**. The program generates useful output files containing filtered stock data, making it easier to analyze market trends.
 
-![Stock Market Banner](https://via.placeholder.com/800x300?text=Stocks+Processing+App)  
-*Image above is a placeholder for an actual stock-related banner or relevant image.*
 
 ## 🚀 Features
 
